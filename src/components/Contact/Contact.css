@@ -1,0 +1,51 @@
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+ 
+  min-height: 100vh;
+}
+
+form {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+}
+
+form h2 {
+  margin-bottom: 24px;
+  font-size: 28px;
+  text-align: center;
+  color: #333;
+}
+
+.input_box {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.input_box label {
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #555;
+  text-transform: capitalize;
+}
+
+.Field {
+  padding: 12px 16px;
+  border: 1.5px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  transition: 0.3s ease;
+  font-size: 16px;
+}
+
+.Field:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 4px rg
+}

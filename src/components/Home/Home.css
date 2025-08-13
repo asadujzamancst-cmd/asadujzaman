@@ -1,0 +1,115 @@
+:root {
+  --bg-color: #215b74;
+  --text-color: #ffffff;
+  --accent-color: #00abf0;
+  --soft-white: #f0f0f0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: var(--bg-color);
+}
+
+/* Main section */
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 10%;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #489fc5, #203a43, #2c5364);
+}
+
+.home-content {
+  max-width: 700px;
+  color: var(--text-color);
+  text-align: center;
+}
+
+.home-content h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.home-content h1 span {
+  color: var(--accent-color);
+  font-size: 2.5rem;
+}
+
+.text-animated h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: transparent;
+  -webkit-text-stroke: 1px var(--accent-color);
+  margin: 1rem 0;
+}
+
+.home-content p {
+  font-size: 1.1rem;
+  color: var(--soft-white);
+  margin-bottom: 2rem;
+}
+.home h1 span{
+  color: white;
+  text-shadow: 
+  0 0 10px cyan,
+  0 0 20px cyan,
+  0 0 40px cyan;
+}
+
+/* Button */
+
+/* Card for mobile view */
+.onMobile {
+  display: none;
+}
+
+#das {
+  margin: 20px auto;
+  padding: 30px;
+  background: rgb(94, 147, 164);
+  border: 1px solid greenyellow;
+  border-radius: 15px;
+  text-align: center;
+  max-width: 90%;
+  box-shadow: 0 10px 25px beige;
+}
+
+#das h1 {
+  background: linear-gradient(to right, #00fff0, #007cf0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 2rem;
+}
+
+.rig img {
+  margin-top: 20px;
+  width: 100%;
+  max-width: 200px;
+  border-radius: 10px;
+  
+}
+#das p{
+                    color: #a8ccd5;
+}
+.onMobile p span{
+  color: #d1e5ea;
+  text-shadow: 
+  0 0 10px cyan,
+  0 0 20px cyan,
+  0 0 40px cyan
+  ;
+}
+
+/* Responsive Styles */
+@media (max-width: 800px) {
+  .home {
+    display: none;
+  }
+
+  .onMobile {
+    display: block;
+  }
+}
